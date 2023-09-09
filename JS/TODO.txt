@@ -1,0 +1,11 @@
+rex || 25
+error types || 16
+beginner / intermediate prac problems || 80
+DOM || 90
+HTMl + JS || 50
+Frontend mentor css || 90
+Intro to responsive web design || 75
+Finish everything after || 180
+Total || 606
+
+https://www.youtube.com/watch?v=zJSY8tbf_ys
