@@ -1,31 +1,36 @@
-/* 
-display: none;
-opacity:0;
-visibility: hidden;
-*/
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 div {
-  background-color: blue;
-  color: white;
-  margin: 10px;
+  color: silver;
+  font-size: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-.none {
-  display: none;
+.top {
+  background-image: url(../res/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;Samsing
+  background-attachment: fixed;
+  background-size: cover;
 }
-
-.opacity-1 {
-  opacity: 1;
+.middle {
+  background-image: url(../res/flenclost.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-5 {
-  opacity: 0.5;
-}
-
-.visiblity {
-  visibility: hidden;
+.bottom {
+  background-image: url(../res/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
