@@ -20,7 +20,13 @@ div {
   background-size: cover;
 }
 .middle {
-  background-image: url(../res/flenclost.jpg);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(44, 209, 214, 0.1),
+      rgba(9, 9, 9, 0.9)
+    ),
+    url(../res/flenclost.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
