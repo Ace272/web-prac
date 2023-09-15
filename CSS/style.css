@@ -1,18 +1,33 @@
+/* Position fixed */
+button {
+  background-color: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
 div {
   border: 3px solid red;
   background-color: yellow;
   margin-top: 40px;
-  position: static;
+  /* position: static; */
 }
 
 .one {
   background-color: blue;
+  position: relative;
 }
 
 .two {
   background-color: green;
+  /* position: relative; */
 }
 
-span {
+.special {
   background-color: pink;
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 50%;
 }
