@@ -1,33 +1,36 @@
-/* Position fixed */
-button {
-  background-color: red;
-  font-size: 40px;
-  color: white;
-  position: fixed;
-  right: 0;
-  top: 0;
-}
-div {
-  border: 3px solid red;
+/*Media Queries
+Reponsive Designs
+Style elements on different screen sizes
+min-width: starting from
+max-width: up to
+Mobile first
+*/
+
+body {
   background-color: yellow;
-  margin-top: 40px;
-  /* position: static; */
 }
 
-.one {
+.banner {
   background-color: blue;
-  position: relative;
+  border-radius: 20px;
 }
 
-.two {
-  background-color: green;
-  /* position: relative; */
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
-.special {
-  background-color: pink;
-  position: absolute;
-  font-size: 20px;
-  top: 50%;
-  right: 50%;
+@media screen and (min-width: 576px) {
+  body {
+    background-color: red;
+  }
+  .banner {
+    background-color: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
 }
