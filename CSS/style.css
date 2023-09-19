@@ -7,3 +7,17 @@ img --- does not work
 p::before {
   content: "hello ";
 }
+
+div {
+  width: 60px;
+  margin: 100px auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+img::before {
+  content: "hello";
+}
