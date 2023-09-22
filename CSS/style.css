@@ -1,17 +1,13 @@
-/* ::first-letter & ::first-line */
-/* :hover */
-
-.fst::first-letter {
-  font-size: 40px;
-  font-family: cursive;
+/* :link :visited :hover :active */
+a:link {
+  color: aqua;
 }
-
-.fst::first-line {
-  font-weight: bold;
-  font-family: fantasy;
+a:visited {
+  color: red;
 }
-
-.scd:hover {
-  background-color: black;
-  color: white;
+a:hover {
+  color: purple;
+}
+a:active {
+  color: yellowgreen;
 }
