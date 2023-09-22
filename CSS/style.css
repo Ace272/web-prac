@@ -1,19 +1,17 @@
-/* Basic Selectors */
-* {
-  color: red;
-}
-#heading {
+/* ::first-letter & ::first-line */
+/* :hover */
+
+.fst::first-letter {
   font-size: 40px;
-  text-transform: uppercase;
-  color: blue;
+  font-family: cursive;
 }
 
-.heading {
-  font-size: 20px;
-  text-transform: capitalize;
-  color: yellow;
+.fst::first-line {
+  font-weight: bold;
+  font-family: fantasy;
 }
 
-p {
-  letter-spacing: 20px;
+.scd:hover {
+  background-color: black;
+  color: white;
 }
