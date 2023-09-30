@@ -1,5 +1,12 @@
 .container {
   height: 100vh;
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  align-items: baseline;
 }
 
 .box-1 {
@@ -8,4 +15,30 @@
   background-color: skyblue;
   border: 2px solid black;
   font-size: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  width: 140px;
+  height: 140px;
+  background-color: skyblue;
+  border: 2px solid black;
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.box-3 {
+  width: 140px;
+  height: 140px;
+  background-color: skyblue;
+  border: 2px solid black;
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
