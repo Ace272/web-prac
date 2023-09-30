@@ -1,16 +1,22 @@
+/* flex-grow and flex-shrink are done based on the width of the flex container */
+/* Shortcuts could be used as follows */
+/* flex: 2 1 30em; */
+/* flex-flow : row wrap; */
+/* place-content : center flex-end; */
+
 .container {
   height: 100vh;
   display: flex;
   gap: 25px;
-  flex-direction: row;
+  flex-flow: row wrap;
+  /* flex-direction: row; */
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  /* align-content: center; */
-  align-items: baseline;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
 .box-1 {
-  width: 140px;
+  flex-basis: 140px;
   height: 140px;
   background-color: skyblue;
   border: 2px solid black;
@@ -21,7 +27,7 @@
 }
 
 .box-2 {
-  width: 140px;
+  flex-basis: 140px;
   height: 140px;
   background-color: skyblue;
   border: 2px solid black;
@@ -29,12 +35,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
 }
 
 .box-3 {
-  width: 140px;
   height: 140px;
+  flex-basis: 140px;
   background-color: skyblue;
   border: 2px solid black;
   font-size: 65px;
