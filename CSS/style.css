@@ -1,13 +1,19 @@
-/* :link :visited :hover :active */
-a:link {
-  color: aqua;
+/* :root root element of the document
+html element
+general styles
+css variables
+ */
+
+:root {
+  font-size: 125%;
 }
-a:visited {
-  color: red;
+/* By default 1 rem is 16px */
+h1 {
+  font-size: 3rem;
 }
-a:hover {
-  color: purple;
+.absolute {
+  font-size: 24px;
 }
-a:active {
-  color: yellowgreen;
+.responsive {
+  font-size: 1.5rem;
 }
